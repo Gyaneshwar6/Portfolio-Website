@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+}
+
+.home_nav {
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  font-family: "arial";
+  font-size: 16px;
+}
+.left_nav h1 {
+  margin-top: 40px;
+  margin-left: 110px;
+}
+.right_nav a {
+  font-size: 22px;
+  color: black;
+  text-decoration: none;
+}
+.right_nav {
+  margin-top: 40px;
+  margin-left: 1000px;
+  display: flex;
+  gap: 40px;
+}
+.right_nav i {
+  margin: top 7px;
+  font-size: 28px;
+}
+.main{
+  /* height: 100vh; */
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.main_top{
+  display: flex;
+}
+.hero_head {
+  margin-top: 200px;
+  margin-left: 30px;
+  width: 500px;
+}
+
+.hero_head h1 {
+  padding: 20px;
+  font-family: arial;
+  font-size: 80px;
+}
+.hero_head p {
+  padding: 20px;
+  font-family: arial;
+  font-size: 30px;
+}
+.hero_img {
+  margin-top: 90px;
+  margin-left: 30px;
+  width: 700px;
+  height: 50vh;
+  border-radius: 45px;
+  background-image: url(hero.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main_cen{
+  width: 1270px;
+  display: flex;
+  height: 35vh;
+  border: 2px solid #ccc;
+}
+.text{
+  font-family: arial;
+  font-size: 21px;
+  margin: 50px 50px;
+  width: 55%;
+}
+.text p{
+  color: grey;
+  font-size: 19px;
+  line-height: 25px;
+}
+
+.img{
+ width: 45%;
+ background-image: url(long-card.png);
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+.tree{
+  height: 60vh;
+  display: flex;
+  justify-content: space-between;
+}
+.one{
+border: 2px solid #ccc;
+width: 400px;
+box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.5); 
+}
+.two{
+  border: 2px solid #ccc;
+  width: 400px;
+  box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.5); 
+}
+.three{
+  border: 2px solid #ccc;
+  width: 400px;
+  box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.5); 
+}
+.one_img{
+  height: 45%;
+  background-image: url(card1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.one_text{
+  padding :20px 30px ;
+}
+.one_text h1 {
+ font-size: 32px;
+}
+.one_text p {
+ font-size: 20px;
+}
+.two_text{
+  padding :20px 30px ;
+}
+.two_text h1 {
+ font-size: 32px;
+}
+.two_text p {
+ font-size: 20px;
+}
+.three_text{
+  padding :20px 30px ;
+}
+.three_text h1 {
+ font-size: 32px;
+}
+.three_text p {
+ font-size: 20px;
+}
+
+.two_img{
+  height: 45%;
+  background-image: url(card2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.three_img{
+  height: 45%;
+  background-image: url(card3.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.contain{
+  display: flex;
+  height: 80vh;
+}
+.big_text{
+  margin-top:   150px;
+  margin-left: 70px;
+  margin-right: 20px;
+  width: 50%;
+  font-family: arial;
+}
+.big_text h1{
+ font-size: 64px;
+}
+.big_text p{
+ font-size: 25px;
+ line-height: 35px
+}
+.big_img{
+  width: 50%;
+  background-image: url(long-big-card.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.see_more{
+  margin-left: 1180px;
+  text-align: center;
+  padding: 10px 10px;
+  height: 25px;
+  width: 100px;
+  border-radius: 20px;
+  color: white;
+  font-size: 20px;
+  font-family: arial;
+  background-color: rgb(0, 0, 86);
+}
+hr{
+  border-top: 2px solid #ccc;
+}
+.foot{
+  display: flex;
+  height: 13vh;
+}
+.foot_text{
+ margin-top: 40px ;
+ margin-left: 120px;
+ font-family: arial;
+ font-size: 25px;
+ color: black;
+}
+.foot_icons {
+  display: flex;
+  margin-left: 700px;
+  margin-top: 40px;
+  font-size: 40px;
+  gap: 60px;
+}
+.foot_icons a{
+  color: black;
+}
+/* -------------------------------------------- */
+.post_page{
+  font-family: arial;
+  height: 120vh;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.post_img{
+  width: 100%;
+  height: 80vh;
+  background-image: url(banner\ \(1\).png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.post_text h1{
+  color: rgb(46, 46, 46);
+  margin-top: 30px;
+  font-size: 67px;
+}
+h2{
+  color: rgb(46, 46, 46);
+  font-size: 37px ;
+}
+h4{
+  font-size: 32px;
+  color: black;
+}
+.post_text p{
+  color: rgb(147, 140, 140);
+  font-size: 27px;
+}
+.last{
+  margin-top: 250vh;
+  height: 13vh;
+  width: 100%;
+}
+.post_foot{
+  
+  display: flex;
+}
+.post_foot_text{
+ margin-top: 40px ;
+ margin-left: 120px;
+ font-family: arial;
+ font-size: 25px;
+ color: black;
+}
+.post_foot_icons {
+  display: flex;
+  margin-left: 700px;
+  margin-top: 40px;
+  font-size: 40px;
+  gap: 60px;
+}
+.post_foot_icons a{
+  color: black;
+}

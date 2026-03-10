@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+}
+.container {
+
+  display: flex;
+}
+aside
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 30px; */
+  padding: 10px;
+}
+
+ .leftcont {
+  height: 100vh;
+  width: 70px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 8px;
+ 
+} 
+.menu {
+  margin-top: 20px;
+  height: 40px;
+  width: 40px;
+  background-image: url(bars.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.home {
+  margin-top: 20px;
+  height: 40px;
+  width: 40px;
+  background-image: url(home.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.explore {
+  margin-top: 20px;
+  height: 40px;
+  width: 40px;
+  background-image: url(explore.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.subscription {
+  margin-top: 20px;
+  height: 40px;
+  width: 40px;
+  background-image: url(video-gallary.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.library {
+  margin-top: 20px;
+  height: 40px;
+  width: 40px;
+  background-image: url(video-library.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.navbar{
+  /* width: 1500px; */
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 10px;
+  padding-top: 30px;
+}
+
+.main_container{
+  width: 100%;
+}
+
+.logo img{
+  padding-left: 0;
+  height: auto;
+  width: 150px;
+}
+.center_nav{
+  display: flex;
+}
+.search
+{
+  display: flex;
+}
+.search input{
+  width: 600px;
+  height: 40px;
+}
+.search button{
+  width:70px ;
+  height: 45px;
+  padding: 5px 5px;
+  background-color: rgb(217, 212, 212);
+}
+.mic{
+  height: 47px;
+  width: 47px;
+  background-color: rgb(217, 212, 212);;
+  border-radius: 50%;
+  margin-left: 50px;
+  text-align: center;
+}
+.mic img{
+  padding-top: 13px;
+
+}
+.side_nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-right: 50px;
+}
+.tags{
+  display: flex;
+  padding: 10px 20px;
+  gap: 15px;
+  border-top: 2px solid #ccc ;
+  font-size: 18px;
+}
+.tag{
+  padding: 5px 10px;
+  border: 2px solid rgb(22,22,22);
+  border-radius: 20px;
+}
+.dark{
+  background-color: black;
+  color: white;
+}
+.light{
+  background-color: rgb(238,238,238);
+  color: rgb(67,67,67);
+  font-weight: 300;
+}
+main{
+  height: 100vh;
+  background-color: rgb(240,238,238);
+}
+
+
+
+
+

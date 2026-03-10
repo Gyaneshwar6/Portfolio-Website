@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+}
+.container{
+    height: 100vh;
+    display: flex;
+}
+
+aside{
+    width: 300px;
+    height: 200vh;
+    border: 3px solid black;;
+    text-align: center; 
+}
+
+hr{
+    border-top: 2px solid black;
+}
+.para{
+    font-size: 26px;
+    font-family: "arial";
+    padding: 30px 10px;
+
+}
+.head{
+    font-size: 39px;
+    font-family: "arial";
+    padding: 30px 10px;
+}
+.main{
+    height: 200vh;
+    width: 100%;
+}
+.main_text{
+    margin: 50px 40px;  
+    font-family: arial; 
+}
+.main_text p{
+    font-size: 17px;
+}
+.print{
+    font-size: 27px;
+    padding-top: 40px;
+    padding-left: 30px;
+    width: 1300px;
+    height: 120px;
+    background-color: rgb(238,238,238);
+}

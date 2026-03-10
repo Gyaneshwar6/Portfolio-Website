@@ -1,0 +1,222 @@
+*{
+margin: 0;
+}
+html,body{
+    line-height: 1.4;
+    font-weight: 300;
+}
+
+.container{
+    background-image: url(first.png);
+    position: relative;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    
+   
+}
+.text{
+    margin: 0 auto;
+    max-width: 900px;
+    color: white;
+    font-family: Arial;
+    padding-top:30px;
+    font-size: 25px;
+}
+.lg_text
+{ 
+    font-size: 62px;
+}
+.lg_bottom
+{
+    font-size:120px;
+}
+.text_bottom{
+    background-color: black;
+    height: 25vh;
+    margin: 0 auto;
+    color: white;
+    padding-top: 10px;
+    font-family: arial;
+    text-align: center;
+}
+.text_bottom h1{
+    font-size: 72px;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+.work
+{
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    
+}
+.web_develop
+{
+    height: 800px;
+    width: 500px;
+    border-radius: 20px;
+    border: 2px solid rgb(223, 217, 217);
+    box-shadow: 4px 3px 5px rgba(1,1,1,0.5);
+}
+.img{
+    width: 100%;
+    height: 40%;
+    border-radius: 20px;
+    background-image: url(web.png);
+    position: relative;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.app_develop
+{   height: 800px;
+    width: 500px;
+    border-radius: 20px;
+    border: 2px solid rgb(223, 217, 217);
+    box-shadow: 4px 3px 5px rgba(1,1,1,0.5);
+}
+.img2{
+    width: 100%;
+    height: 40%;
+    border-radius: 20px;
+    background-image: url(mobile.png);
+    position: relative;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.uiux{
+    
+    height: 800px;
+    width: 500px;
+    border-radius: 20px;
+    border: 2px solid rgb(223, 217, 217);
+    box-shadow: 4px 3px 5px rgba(1,1,1,0.5);
+}
+.img3{
+    width: 100%;
+    height: 40%;
+    border-radius: 20px;
+    background-image: url(uiux.png);
+    position: relative;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.text1 h1 {
+padding-left: 15px;
+padding-top: 20px;
+font-size: 30px;
+font-family: arial;
+}
+p{
+padding-left: 15px;
+padding-top: 20px;
+font-size: 18px;
+font-family: arial;
+font-weight: 100;
+}
+.end{
+    display: flex;
+    height: 30vh;
+    margin-top: 60px;
+}
+.contact
+{
+background-color:#7EA172;
+width: 50%;
+
+}
+.about
+{
+    background-color:#502419;
+    width: 50%;
+}
+.about_text{
+    font-size: 50px;
+    color: white;
+    padding-left: 20;
+    padding-top: 20;
+    text-align: center;
+}
+.last
+{
+padding-left: 15px;
+padding-top: 20px;
+font-size: 18px;
+font-family: arial;
+font-weight: 100;
+color: white;
+text-align: center;
+}
+.foot {
+    background-color: black;
+    font-family: arial;
+    font-size: 200px;
+    text-align: center;
+    color: white;
+    height: 100px;
+}
+.foot_text{
+    font-family: arial;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    padding-top: 35px;
+    
+}
+@media only screen and (min-width:400px) and (max-width : 1340px){
+   .end{
+    flex-direction: column; 
+   }
+   .about{
+    width: 100%;
+   }
+   .contact{
+    width: 100%;
+   }
+   .foot{
+    display: flex;
+    flex-direction: column;
+    flex-grow: inherit;
+   }
+}
+@media screen and (max-width:1146px){
+    .work{
+    flex-wrap: wrap;
+   }
+   .uiux{
+    margin-top: 30px;
+}
+    .foot{
+          flex-wrap: wrap;
+    }
+   
+}
+
+
+@media screen and (max-width:1007px){
+    .app_develop{
+        margin-top: 30px;
+} 
+}
+@media only screen and (min-width:580px) and (max-width : 1080px){
+   
+    .text_bottom h1 {
+          font-size: 62px;
+          letter-spacing: 0px;
+    }
+    .lg_bottom{
+        font-size: 62px;
+    }
+    
+ }
+ @media only screen and (min-width:830px) and (max-width : 1080px){
+   
+   
+    
+ }
+

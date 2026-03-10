@@ -1,0 +1,247 @@
+* {
+  margin: 0;
+}
+
+.navbar {
+  height: 60px;
+  background-color: rgb(6, 6, 113);
+}
+.nav_text {
+  display: flex;
+  color: white;
+}
+.nav_main {
+  margin-top: 8px;
+  margin-left: 140px;
+  font-size: 25px;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+.nav_other {
+  display: flex;
+  margin-left: 950px;
+  margin-top: 17px;
+  align-items: flex-start;
+  gap: 35px;
+  font-size: 20px;
+  font-family: Arial;
+  font-weight: 100;
+}
+.first_body {
+  height: 100vh;
+}
+.first_body_img {
+  height: 100vh;
+  background-image: url(hero_image.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.first_text {
+  margin: 0 auto;
+  max-width: 900px;
+}
+.first_text h1 {
+  color: white;
+  font-size: 70px;
+  padding-top: 300px;
+}
+.main_p {
+  font-size: 33px;
+  color: white;
+}
+.main_sp {
+  color: white;
+  font-size: 18px;
+  text-align: left;
+}
+
+.bg_blue {
+  height: 120vh;
+  background-color: rgb(30, 30, 82);
+}
+.bg_text {
+  margin: 0 auto;
+  max-width: 1400px;
+  color: white;
+  font-size: 30px;
+  padding-top: 50px;
+  text-align: center;
+  font-family: arial;
+}
+.bg_text h2 {
+  font-size: 25px;
+  font-weight: 150;
+}
+.bg_text p {
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 32px;
+}
+.trial {
+  margin-left: 590px;
+  padding: 10px 10px;
+  color: white;
+  font-size: large;
+  border-radius: 20px;
+  height: 30px;
+  width: 200px;
+  background-color: orangered;
+}
+.ipad_mob {
+  height: 120vh;
+  background-image: url(ipad-iphone.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.lower_head {
+  font-size: 25px;
+  font-family: arial;
+  color: black;
+}
+.lower_p {
+  color: black;
+  font-family: arial;
+  font-size: 15px;
+}
+.read {
+  margin-left: 590px;
+  padding: 10px 10px;
+  color: white;
+  font-size: 25px;
+  border-radius: 20px;
+  height: 25px;
+  width: 150px;
+  background-color: rgb(26, 26, 81);
+}
+.lower_img {
+  height: 100vh;
+  background-image: url(mac.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.concert {
+  margin-top: 200vh;
+  height: 110vh;
+ text-align: center;
+}
+.img_concert {
+  height: 100vh;
+  background-image: url(concert.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.img_concert h1{
+  font-family: arial;
+  font-size: 30px;
+  color: white;
+  padding-top:300px;
+
+}
+.img_concert p{
+  margin: 0 auto;
+  max-width: 1300px;
+  font-family: arial;
+  color: white;
+  padding-top:50px;
+}
+.gift{
+  height: 60vh;
+  display: flex;
+  /* align-items: center; */
+}
+.gift_img{
+  margin-left: 250px;
+  height: 400px;
+  width: 600px;
+  background-image: url(gift_card.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.gift_text
+{
+  margin-left: 40px;
+  height:400px ;
+  width: 600px;
+
+}
+.gift_text h1{
+  padding-top: 20px;
+ color: black;
+ font-size: 30px;
+ font-family:  arial;
+}
+.gift_text p{
+  line-height: 40px;
+  color: black;
+  font-size: 20px;
+  font-family:  arial;
+}
+hr.solid {
+  border-top: 3px solid #bbb;
+}
+.redeem
+{
+  text-align: center;
+  height: 50px;
+  width: 120px;
+  background-color: rgb(27, 27, 95);
+}
+.redeem p{
+  
+  padding: 5px 10px;
+  font-size: 23px;
+  color: white;
+  font-family: arial;
+}
+.end{
+  display: flex;
+  align-items: center;
+  height: 40vh;
+  background-color: rgb(20, 20, 77);
+  gap:100px ;
+  color: white;
+  font-family: arial;
+  font-size: 20px;
+}
+
+.shop{
+  margin-left: 200px;
+  height: 250px;
+  width: 250px;
+  
+}
+.orange
+{
+  height: 250px;
+  width: 250px;
+  
+}
+.education{
+  height: 250px;
+  width: 250px;
+  
+}
+.about
+{
+  height: 250px;
+  width: 250px;
+  
+}
+footer{
+  height: 50px;
+  padding-top: 25px;
+  text-align: center;
+  background-color: rgb(9, 9, 111);
+  color: white;
+  font-size: 20px;
+  font-family: arial;
+}

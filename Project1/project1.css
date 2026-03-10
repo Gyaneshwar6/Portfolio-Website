@@ -1,0 +1,72 @@
+*
+{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container
+{
+
+height: 170vh;
+background-color: #e5e5fd;
+
+}
+#content
+{
+    margin: 0 auto;
+    max-width: 900px;
+    display: flex;
+    align-content: space-evenly;
+
+}
+
+
+.img
+{
+    height: 320px;
+    width: 300px;
+    background-image: url(abdul.webp);
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+    top: 20px;
+    animation: ani 15s 3s infinite normal;
+}
+.write
+{
+ position: relative;
+ top: 250px;
+}
+
+.write h1{
+    align-items: flex-end;
+    font-size: 50px;
+}
+.write h2{
+    text-align:end;
+    font-size: 30px;
+
+}
+
+.about
+{ margin: 0 auto;
+ max-width: 900px;
+ font-size: 27px;
+
+}
+.end
+{
+    font-size: 20px;
+    text-align: end;
+}
+
+@keyframes ani{
+    0%{background-image: url(abdul.webp);}
+    50%{
+        background-image: url(apj2.webp);
+    }
+    100%{
+        background-image: url(apj3.webp);
+    }
+
+}
